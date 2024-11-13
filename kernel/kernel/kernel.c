@@ -4,6 +4,9 @@
 
 void kernel_main(void) {
 	terminal_initialize();
-	printf("Hello, kernel World!\n");
-	printf("Hello, kernel World!\n");
+	while (1==1) {
+		printf("Hallo Welt\n");
+		printf("Ich bin ein Betriebssystem!\n");
+		printf("Ein dritter Text.\n");
+	}
 }

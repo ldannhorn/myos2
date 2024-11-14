@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 #include <kernel/tty.h>
-#include "../arch/i386/vga.h"
+//#include "../arch/i386/vga.h"
+#include <kernel/vga.h>
 
 void kernel_main(void) {
 	terminal_initialize();
